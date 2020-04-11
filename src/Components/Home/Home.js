@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { SmileTwoTone } from "@ant-design/icons";
+// import { SmileTwoTone } from "@ant-design/icons";
 import Navbar from "../Navbar/navbar";
 import Search from "../search.js/search";
 import ViewCard from "../ViewCard/ViewCard";

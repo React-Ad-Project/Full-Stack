@@ -11,7 +11,8 @@
     position: relative;
     text-align: left;
     width: 100%;
-    margin-left: 7%;
+    
+    align-content: center;
   }
   
   .snip1527 * {
@@ -124,5 +125,11 @@
     text-align: left;
     background-color: #fff;
   }
-  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
   
