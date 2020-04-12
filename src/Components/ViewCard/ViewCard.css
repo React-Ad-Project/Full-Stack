@@ -4,16 +4,18 @@
     float: left;
     font-family: 'Lato', Arial, sans-serif;
     font-size: 16px;
-    margin: 10px 1%;
+
     max-width: 310px;
     min-width: 250px;
     overflow: hidden;
     position: relative;
     text-align: left;
     width: 100%;
-    margin-left:7%;
+    
   }
-  
+  figure{
+    margin: 7%;
+  }
   .snip1527 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
