@@ -11,7 +11,11 @@ const app = express();
 const port = process.env.PORT | 8000;
 
 //connect to mongo db
-mongoose.connect('mongodb://localhost/ninjago');
+mongoose.connect('mongodb+srv://abhinav:abhinav123@cluster0-fbvaq.mongodb.net/test?retryWrites=true&w=majority',{
+    useNewUrlParser:true,
+    useUnifiedTopology: true
+
+});
 mongoose.Promise = global.Promise
 
 
