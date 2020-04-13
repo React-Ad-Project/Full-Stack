@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const fetch = require('node-fetch');
 const passport = require('passport');
 const localStrategy = require('passport-local');
 const passportLocalMongoose = require('passport-local-mongoose');
@@ -13,10 +12,11 @@ const port = process.env.PORT | 8000;
 //connect to mongo db
 mongoose.connect('mongodb+srv://abhinav:abhinav123@cluster0-fbvaq.mongodb.net/test?retryWrites=true&w=majority',{
     useNewUrlParser:true,
+    useCreateIndex: true,
     useUnifiedTopology: true
 
 });
-mongoose.Promise = global.Promise
+// mongoose.Promise = global.Promise
 
 
 // use body-parser middleware
