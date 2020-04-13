@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>View</title>
+    </head>
+    <body>
+        <% data.forEach((docs) => { %>
+        <h2>Name : <%= docs.name %></h2>
+        <h2>Rating : <%= docs.rating %></h2>
+        <h2>Distance : <%= docs.dist.calculated/1000 %> Km</h2>
+        <img src=<%= docs.imageURL %> alt="Picture" />
+        <% }) %>
+    </body>
+</html>

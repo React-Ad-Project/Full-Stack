@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ninjago</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <h1 class="title">Costomer Details REST API</h1>
+        <div id="homepage">
+            <h1>Find a offer in your area!</h1>
+            <div id="Costomers"></div>
+        </div>
+
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script src="https://unpkg.com/react@15/dist/react.js"></script>
+        <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+
+        <!-- Create React Component -->
+        <script type="text/babel">
+        var Costomers = React.createClass({
+            getInitialState: function(){
+                return({
+                    Costomers: []
+                });
+            },
+            render: function(){
+                var Costomers = this.state.Costomers;
+                Costomers = Costomers.map(function(costumer, index){
+                    return(
+                        <li key={index}>
+                            <span className={costumer.available}></span>
+                            <span className="name">{costumer.name}</span>
+                            <span className="rank">{costumer.rating}</span>
+                            <span className="image"><img src={costumer.imageURL} alt="picture" /></span>
+                            <span className="dist">{Math.floor(costumer.dist.calculated/1000)} km</span>
+                        </li>
+                    );
+                });
+                return(
+                    <div id="costumer-container">
+                        <form id="search" onSubmit={this.handleSubmit}>
+                            <label>Enter your Latitude:</label>
+                            <input type="text" ref="lat" placeholder="latitude" required />
+                            <label>Enter your Longitude:</label>
+                            <input type="text" ref="lng" placeholder="longitude" required />
+                            <input type="submit" value="Find Offers" />
+                        </form>
+                        <ul>{Costomers}</ul>
+                    </div>
+                );
+            },
+            handleSubmit: function(e){
+                e.preventDefault();
+                var lng = this.refs.lng.value;
+                var lat = this.refs.lat.value;
+
+                fetch('/api/details?lng=' + lng + '&lat=' + lat).then(function(data){
+                    return data.json();
+                }).then( json => {
+                    this.setState({
+                        Costomers: json
+                    });
+                    console.log(json);
+                });
+            }
+        });
+        ReactDOM.render(<Costomers />, document.getElementById('Costomers'));
+        </script>
+
+
+    </body>
+</html>
