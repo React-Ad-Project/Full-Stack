@@ -4,4 +4,487 @@
     box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
   }
   
-  
+  section{
+    background: url(https://www.claruscommerce.com/wp-content/uploads/2019/04/loyalty-to-the-discount-0x0.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+  }
+  @media screen and (max-width: 670px){
+    section{
+      min-height: 500px;
+    }
+  }
+  /* slider */
+  /* line 7, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area {
+  position: relative;
+  z-index: 0;
+  background-image:url('banner.png');
+}
+
+/* line 10, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area::before {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001d38+0,001d38+100&1+0,0.6+100 */
+  background: -moz-linear-gradient(left, #001d38 0%, rgba(0, 29, 56, 0.6) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #001d38 0%, rgba(0, 29, 56, 0.6) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #001d38 0%, rgba(0, 29, 56, 0.6) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001d38', endColorstr='#99001d38',GradientType=1 );
+  /* IE6-9 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+
+/* line 25, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider {
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 30, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider.single_listing {
+  height: 500px;
+}
+
+@media (max-width: 767px) {
+  /* line 25, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 25, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider {
+    height: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 39, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 44, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text h3 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 70px;
+  margin-bottom: 70px;
+  color: #fff;
+}
+
+/* line 53, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text h3 span {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  /* line 44, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 44, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 54px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 44, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 35px;
+  }
+}
+
+/* line 69, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text p {
+  font-size: 30px;
+  font-weight: 400;
+  color: #F91842;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 69, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 69, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
+  }
+}
+
+/* line 84, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .search_form {
+  background: #fff;
+  padding: 11px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 89, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .search_form .input_field input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 767px) {
+  /* line 89, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text .search_form .input_field input {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 98, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .search_form .input_field input:focus {
+  outline: none;
+}
+
+/* line 101, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .search_form .input_field input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 108, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .search_form .input_field.location {
+  position: relative;
+}
+
+/* line 110, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .search_form .input_field.location input {
+  padding-left: 45px;
+  border-left: 1px solid #EAEAEA;
+}
+
+@media (max-width: 767px) {
+  /* line 110, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text .search_form .input_field.location input {
+    border-left: 1px solid transparent;
+    padding-left: 15px;
+  }
+}
+
+/* line 120, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .search_form .input_field.location:before {
+  position: absolute;
+  content: '\f041';
+  font-family: fontawesome;
+  font-size: 19px;
+  color: #919191;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+}
+
+@media (max-width: 767px) {
+  /* line 120, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text .search_form .input_field.location:before {
+    display: none;
+  }
+}
+
+/* line 138, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .button_search {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  /* line 138, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text .button_search {
+    text-align: left;
+  }
+}
+
+/* line 144, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .quality {
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  /* line 144, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text .quality {
+    margin-top: 20px;
+  }
+}
+
+/* line 150, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .quality ul li {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  /* line 150, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single_slider .slider_text .quality ul li {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 155, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .quality ul li button {
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: #000;
+  font-family: "Raleway", sans-serif;
+  padding: 5px 19px;
+  display: inline-block;
+  margin: 0 3px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* line 168, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single_slider .slider_text .quality ul li button:hover {
+  background: #F91842;
+}
+
+/* line 177, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .serach_icon a {
+  width: 45px;
+  height: 45px;
+  background: #FD8E5E;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  /* line 177, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .serach_icon a {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 177, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .serach_icon a {
+    width: 50%;
+  }
+}
+
+/* line 194, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .serach_icon {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: end;
+  -moz-align-items: end;
+  -ms-align-items: end;
+  align-items: end;
+}
+
+@media (max-width: 767px) {
+  /* line 194, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .serach_icon {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 194, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .serach_icon {
+    width: 50%;
+    align-items: center;
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 206, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single-field {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 210, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.range_slider {
+  width: 100%;
+}
+
+/* line 212, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.range_slider #slider {
+  margin: 0;
+}
+
+/* line 218, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field .nice-select .list {
+  color: #000;
+  border-radius: 0;
+}
+
+/* line 222, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.max_width {
+  margin-right: 24px;
+}
+
+@media (max-width: 767px) {
+  /* line 222, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single-field.max_width {
+    margin-right: 0;
+  }
+}
+
+/* line 227, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.max_width label {
+  display: block;
+  font-size: 15px;
+  color: #FDAE5C;
+}
+
+/* line 233, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.max_width .nice-select.wide {
+  width: 166px;
+  background: transparent;
+  color: #C7C7C7;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  height: 45px;
+  line-height: 45px;
+}
+
+@media (max-width: 767px) {
+  /* line 233, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single-field.max_width .nice-select.wide {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 247, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.max_width .nice-select::after {
+  content: "\e64b";
+  display: block;
+  height: 5px;
+  margin-top: -5px;
+  pointer-events: none;
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  transition: all 0.15s ease-in-out;
+  width: 5px;
+  font-family: 'themify';
+  color: #ddd;
+  color: #FFFFFF;
+  top: 5px;
+  font-size: 12px;
+}
+
+/* line 265, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.min_width {
+  margin-right: 24px;
+}
+
+@media (max-width: 767px) {
+  /* line 265, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single-field.min_width {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 271, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.min_width label {
+  display: block;
+  font-size: 15px;
+  color: #FDAE5C;
+}
+
+/* line 277, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.min_width .nice-select.wide {
+  width: 110px;
+  background: transparent;
+  color: #C7C7C7;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  height: 45px;
+  line-height: 45px;
+}
+
+@media (max-width: 767px) {
+  /* line 277, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+  .slider_area .single-field.min_width .nice-select.wide {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 291, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_slider.scss */
+.slider_area .single-field.min_width .nice-select::after {
+  content: "\e64b";
+  display: block;
+  height: 5px;
+  margin-top: -5px;
+  pointer-events: none;
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  transition: all 0.15s ease-in-out;
+  width: 5px;
+  font-family: 'themify';
+  color: #ddd;
+  color: #FFFFFF;
+  top: 5px;
+  font-size: 12px;
+}
+.boxed-btn2 {
+  border: none;
+  background: #F91842;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 12px 36px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}

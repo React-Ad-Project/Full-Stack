@@ -1,20 +1,31 @@
 import React from 'react'
-import'./footer.css'
+
 
 export default function Footer() {
     return (
-        <footer id="footerpad">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-8 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item"><a href="/#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="/#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="/#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li class="list-inline-item"><a href="/#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a></li>
-                    </ul>
-                    <p class="copyright text-muted text-center">Copyright © Your Company 2018 | Web Design by Designer</p>
+        <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation">
+                <h3><a href="/#">Company<span>logo </span></a></h3>
+                <p class="links"><a href="/#">Home</a><strong> · </strong><a href="/#">Blog</a><strong> · </strong><a href="/#">Pricing</a><strong> · </strong><a href="/#">About</a><strong> · </strong><a href="/#">Faq</a><strong> · </strong><a href="/#">Contact</a></p>
+                <p class="company-name">Company Name © 2015 </p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"></span>
+                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
                 </div>
+                <div><i class="fa fa-phone footer-contacts-icon"></i>
+                    <p class="footer-center-info email text-left"> +1 555 123456</p>
+                </div>
+                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p><a href="/#" target="_blank">support@company.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 footer-about">
+                <h4>About the company</h4>
+                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
+                <div class="social-links social-icons"><a href="/#"><i class="fa fa-facebook"></i></a><a href="/#"><i class="fa fa-twitter"></i></a><a href="/#"><i class="fa fa-linkedin"></i></a><a href="/#"><i class="fa fa-github"></i></a></div>
             </div>
         </div>
     </footer>

@@ -2,10 +2,13 @@ import React, { Component } from "react";
 // import { SmileTwoTone } from "@ant-design/icons";
 import Navbar from "../Navbar/navbar";
 import Search from "../search.js/search";
-import CardListing from "../CardLIsting/Cardlisting";
-import Footer from "../footer/Footer";
+import CardLIsting from "../CardLIsting/Cardlisting";
+import Foote from "../footer/Footer";
+import { Layout ,Divider} from 'antd';
+
+const {  Footer } = Layout;
 // import Categories from "../categories.js/Categories";
-import RecipeReviewCard from "../categories.js/Categories";
+// import CardLIsting from "../categories.js/Categories";
 
 export default class Home extends Component {
     render() {
@@ -13,9 +16,12 @@ export default class Home extends Component {
             <div className="home">
             <Navbar/>
             <Search/>
-            <CardListing/>
-            <RecipeReviewCard/>
-            <Footer/>
+            <Divider orientation="left" style={{ color: '#333', fontWeight: 'normal' }}> </Divider>
+            <CardLIsting/>
+
+            <Footer >
+            <Foote/>
+            </Footer>
             </div>
         );
     }
