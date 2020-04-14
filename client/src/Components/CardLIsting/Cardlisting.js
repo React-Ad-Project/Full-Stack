@@ -20,7 +20,7 @@ import { Col, Row } from 'antd';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 320,
   },
   media: {
     height: 0,
@@ -51,11 +51,11 @@ export default function CardListing() {
   };
 
   return (
-    <Row justify="space-around" align="strech">
+    <Row justify="center" align="strech" gutter={[32,32]}>
         {arr.map(()=>{
             return(
-                <Col  sm={24} xl={8}>
-                <Card className={classes.root}>
+                <Col  sm={24} xl={{span:6,offset:1}}>
+                <Card className={classes.root} >
                   <CardHeader
                     avatar={
                       <Avatar aria-label="recipe" className={classes.avatar}>

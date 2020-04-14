@@ -19,9 +19,9 @@ export default class Home extends Component {
             <Divider orientation="left" style={{ color: '#333', fontWeight: 'normal' }}> </Divider>
             <CardLIsting/>
 
-            <Footer >
+            
             <Foote/>
-            </Footer>
+        
             </div>
         );
     }

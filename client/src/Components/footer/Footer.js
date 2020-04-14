@@ -1,31 +1,103 @@
 import React from 'react'
+import './footer.css'
 
 
 export default function Footer() {
     return (
-        <footer>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 footer-navigation">
-                <h3><a href="/#">Company<span>logo </span></a></h3>
-                <p class="links"><a href="/#">Home</a><strong> · </strong><a href="/#">Blog</a><strong> · </strong><a href="/#">Pricing</a><strong> · </strong><a href="/#">About</a><strong> · </strong><a href="/#">Faq</a><strong> · </strong><a href="/#">Contact</a></p>
-                <p class="company-name">Company Name © 2015 </p>
+       
+        <footer className="footer">
+        <div className="footer_top">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xl-4 col-md-6 col-lg-3">
+                        <div className="footer_widget">
+                            <div className="footer_logo">
+                                <a href="/#">
+                                    <img src="img/footer_logo.png" />
+                                </a>
+                            </div>
+                            <p>
+                                Esteem spirit temper too say adieus who <br/> direct esteem. It esteems luckily or <br/>
+                                picture placing drawing.
+                            </p>
+                            <div className="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="/#">
+                                            <i className=" fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/#">
+                                            <i className="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/#">
+                                            <i className="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/#">
+                                            <i className="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col-xl-2 col-md-6 col-lg-3">
+                        <div className="footer_widget">
+                            <h3 className="footer_title">
+                                Services
+                            </h3>
+                            <ul>
+                                <li><a href="/#">SEO/SEM </a></li>
+                                <li><a href="/#">Web design </a></li>
+                                <li><a href="/#">Ecommerce</a></li>
+                                <li><a href="/#">Digital marketing</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div className="col-xl-2 col-md-6 col-lg-2">
+                        <div className="footer_widget">
+                            <h3 className="footer_title">
+                                Useful Links
+                            </h3>
+                            <ul>
+                                <li><a href="/#">About</a></li>
+                                <li><a href="/#">Blog</a></li>
+                                <li><a href="/#"> Contact</a></li>
+                                <li><a href="/#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-md-6 col-lg-4">
+                        <div className="footer_widget">
+                            <h3 className="footer_title">
+                                Subscribe
+                            </h3>
+                            <form className="newsletter_form">
+                                <input type="text" placeholder="Enter your mail"/>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <p className="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
+                                luckily.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 col-md-4 footer-contacts">
-                <div><span class="fa fa-map-marker footer-contacts-icon"></span>
-                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
+        </div>
+        <div className="copy-right_text">
+            <div className="container">
+                <div className="footer_border"></div>
+                <div className="row">
+                    <div className="col-xl-12">
+                     
+                    </div>
                 </div>
-                <div><i class="fa fa-phone footer-contacts-icon"></i>
-                    <p class="footer-center-info email text-left"> +1 555 123456</p>
-                </div>
-                <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                    <p><a href="/#" target="_blank">support@company.com</a></p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-4 footer-about">
-                <h4>About the company</h4>
-                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
-                <div class="social-links social-icons"><a href="/#"><i class="fa fa-facebook"></i></a><a href="/#"><i class="fa fa-twitter"></i></a><a href="/#"><i class="fa fa-linkedin"></i></a><a href="/#"><i class="fa fa-github"></i></a></div>
             </div>
         </div>
     </footer>

@@ -1,43 +1,303 @@
-element.style {
-  background-color: rgb(51,84,118);
+.footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #001D38;
 }
 
-footer {
-  background-color: #292c2f;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  font: bold 16px sans-serif;
-  padding: 55px 50px;
-  margin-top: 80px;
-  bottom: 0;
+/* line 7, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer p {
+  font-family: "Raleway", sans-serif !important;
+}
+
+/* line 10, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top {
+  padding-top: 145px;
+  padding-bottom: 129px;
+}
+
+@media (max-width: 767px) {
+  /* line 10, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+  .footer .footer_top {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 17, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 17, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 24, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .footer_title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 767px) {
+  /* line 24, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_title {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 35, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .footer_logo {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  /* line 35, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_logo {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 45, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p {
+  color: #919191;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 51, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p a {
+  color: #919191;
+}
+
+/* line 53, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p a:hover {
   color: #fff;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-}
-
-.text-warning {
-  color: #ffc107!important;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1rem;
+/* line 59, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text {
+  font-size: 16px;
+  color: #B2B2B2;
+  margin-bottom: 23px;
   font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+  line-height: 28px;
 }
 
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
+/* line 65, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text a.domain {
+  color: #B2B2B2;
+  font-weight: 400;
 }
 
+/* line 68, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text a.domain:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 74, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a {
+  font-weight: 500;
+  color: #B2B2B2;
+}
+
+/* line 78, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 82, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a.first {
+  margin-bottom: 10px;
+}
+
+/* line 90, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li {
+  color: #919191;
+  font-size: 13px;
+  line-height: 42px;
+}
+
+/* line 94, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li a {
+  color: #919191;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 98, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li a:hover {
+  color: #fff;
+}
+
+/* line 104, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 107, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  border: 1px solid #334A60;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 118, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input::placeholder {
+  font-size: 14px;
+  color: #919191;
+}
+
+/* line 122, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input:focus {
+  outline: none;
+}
+
+/* line 126, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background: #F91842;
+  padding: 10px;
+  padding: 0 22px;
+  cursor: pointer;
+  border-radius: 5px;
+  top: 5px;
+  right: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 146, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_text {
+  font-size: 13px;
+  color: #919191;
+  line-height: 26px;
+}
+
+/* line 153, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .copy-right_text {
+  padding-bottom: 30px;
+}
+
+/* line 155, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right {
+  font-size: 15px;
+  color: #919191;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  /* line 155, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+  .footer .copy-right_text .copy_right {
+    font-size: 13px;
+  }
+}
+
+/* line 163, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right a {
+  color: #F91842;
+}
+
+/* line 168, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links {
+  margin-top: 47px;
+}
+
+@media (max-width: 767px) {
+  /* line 168, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+  .footer .socail_links {
+    margin-top: 30px;
+  }
+}
+
+/* line 174, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links ul li {
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 177, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links ul li a {
+  font-size: 15px;
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  text-align: center;
+  background: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 40px !important;
+  margin-right: 7px;
+  color: #FFFFFF !important;
+  line-height: 40px !important;
+  background: #3B5797;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 195, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links ul li:nth-child(2) a {
+  background: #DB4337;
+}
+
+/* line 198, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links ul li:nth-child(3) a {
+  background: #00ACED;
+}
+
+/* line 201, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links ul li:nth-child(4) a {
+  background: #AC907A;
+}
+
+/* line 204, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links ul li:nth-child(5) a {
+  background: #000;
+}
+
+/* line 207, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_footer.scss */
+.footer .socail_links ul li:hover a {
+  color: #fff !important;
+  background: #F91842;
+  border-color: transparent;
+}
