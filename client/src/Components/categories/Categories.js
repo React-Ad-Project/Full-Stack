@@ -1,8 +1,5 @@
 import React from 'react'
 import './categories.css'
-
-import { Row, Col } from 'antd';
-
 export default function Categories() {
     return (
     <div>
@@ -23,7 +20,7 @@ export default function Categories() {
                 <div className="col-xl-3 col-md-4 col-lg-3">
                     <div className="single_catagory">
                         <div className="thumb">
-                            <img src="img/catagory/1.png" alt=""/>
+                            <img src={'catagory\1.png'} alt="sfsd"/>
                         </div>
                         <div className="hover_overlay">
                             <div className="hover_inner">
@@ -38,7 +35,7 @@ export default function Categories() {
                         <div className="thumb">
                             <img src="img/catagory/2.png" alt=""/>
                         </div>
-                        <div className="hover_overlay">s
+                        <div className="hover_overlay">
                             <div className="hover_inner">
                                 <a href="Listings.html"><h4>Movies, music and events</h4></a>
                                 <span>05 Listings</span>
@@ -66,7 +63,7 @@ export default function Categories() {
                         </div>
                         <div className="hover_overlay">
                             <div className="hover_inner">
-                                    <a href="Listings.html"><h4>Music Festival</h4></a>
+                                    <a href="Listings.html"><h4>Movies, music and events</h4></a>
                                 <span>05 Listings</span>
                             </div>
                         </div>
@@ -79,7 +76,7 @@ export default function Categories() {
                         </div>
                         <div className="hover_overlay">
                             <div className="hover_inner">
-                                    <a href="Listings.html"><h4>Night Club</h4></a>
+                                    <a href="Listings.html"><h4>Fashion and lifestyle</h4></a>
                                 <span>05 Listings</span>
                             </div>
                         </div>
@@ -92,7 +89,7 @@ export default function Categories() {
                         </div>
                         <div className="hover_overlay">
                             <div className="hover_inner">
-                                    <a href="Listings.html"><h4>Bars & Pubs</h4></a>
+                                    <a href="Listings.html"><h4>Home and furniture</h4></a>
                                 <span>05 Listings</span>
                             </div>
                         </div>
@@ -105,7 +102,7 @@ export default function Categories() {
                         </div>
                         <div className="hover_overlay">
                             <div className="hover_inner">
-                                    <a href="Listings.html"><h4>Cafe</h4></a>
+                                    <a href="Listings.html"><h4>Healthcare and nutrition </h4></a>
                                 <span>05 Listings</span>
                             </div>
                         </div>
@@ -118,7 +115,7 @@ export default function Categories() {
                         </div>
                         <div className="hover_overlay">
                             <div className="hover_inner">
-                                    <a href="Listings.html"><h4>Restaurants</h4></a>
+                                    <a href="Listings.html"><h4>Food and drinks</h4></a>
                                 <span>05 Listings</span>
                             </div>
                         </div>
