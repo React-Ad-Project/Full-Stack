@@ -1,4 +1,5 @@
 import React from 'react'
+import im from './catagory/1.png'
 import './categories.css'
 export default function Categories() {
     return (
@@ -20,7 +21,7 @@ export default function Categories() {
                 <div className="col-xl-3 col-md-4 col-lg-3">
                     <div className="single_catagory">
                         <div className="thumb">
-                            <img src={'catagory\1.png'} alt="sfsd"/>
+                            <img src={im} alt="sfsd"/>
                         </div>
                         <div className="hover_overlay">
                             <div className="hover_inner">
