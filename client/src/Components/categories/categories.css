@@ -1,7 +1,9 @@
+/* line 1, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_popular_catagory.scss */
 .popular_catagory_area {
   padding-top: 150px;
   padding-bottom: 120px;
 }
+
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_popular_catagory.scss */
   .popular_catagory_area {
@@ -17,6 +19,8 @@
     padding-bottom: 50px;
   }
 }
+
+/* line 12, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_popular_catagory.scss */
 .popular_catagory_area .single_catagory {
   position: relative;
   -webkit-border-radius: 10px;
@@ -25,17 +29,23 @@
   overflow: hidden;
   margin-bottom: 30px;
 }
+
+/* line 17, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_popular_catagory.scss */
 .popular_catagory_area .single_catagory .thumb {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
+
+/* line 20, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_popular_catagory.scss */
 .popular_catagory_area .single_catagory .thumb img {
   width: 100%;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
+
+/* line 25, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_popular_catagory.scss */
 .popular_catagory_area .single_catagory .hover_overlay {
   position: absolute;
   left: 0;
@@ -52,6 +62,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00001d38', endColorstr='#001d38',GradientType=0 );
   /* IE6-9 */
 }
+
 /* line 37, ../../Arafath/CL/Cl November/222. Directory/HTML/scss/_popular_catagory.scss */
 .popular_catagory_area .single_catagory .hover_overlay .hover_inner {
   position: absolute;
